@@ -19,4 +19,5 @@ The aim
 
 # Gameplay
 Below is a screenshot of the game, so far.
+
 ![](https://i.imgur.com/ZvxvBkT.jpg)
