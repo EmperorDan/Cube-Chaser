@@ -3,10 +3,8 @@
 ## Introduction
 The aim
 
-# Table of Contents
-
-
 ## Mechanics
+
 -Player Character tracks player mouse co-ordinates.
 
 -Enemy NPC follows player mouse.
@@ -18,6 +16,7 @@ The aim
 -Player will win if they survive a certain amount of time without being hit.
 
 ## Gameplay
+
 Below is a screenshot of the game, so far.
 
 ![](https://i.imgur.com/ZvxvBkT.jpg)
