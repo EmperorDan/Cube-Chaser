@@ -1,0 +1,117 @@
+<!doctype html>
+<html><head>
+		<meta charset="utf-8">
+		<title\>Cube Chase</title>
+		
+		<style>
+			body {
+				background-color: #aaaaaa;
+						font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+		font-size: 30px;
+				padding: 0px 0px 0px 0px;
+				margin: 0px 0px 0px 0px;
+			}
+			.GameViewPort{
+				position: absolute;
+				left: 40px;
+				top: 40px;
+				border: 10px solid #040000;
+				background-color: #4D1010;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+		<canvas id="Projectone" class="GameViewPort" width="500" height="500">
+		</canvas>
+		<script>
+	var canvas = document.getElementById('Projectone');
+	var ctx = canvas.getContext('2d');		
+
+		function rect(x, y, w, h, color="red"){
+		ctx.beginPath(x,y,w,h);
+		ctx.fillStyle=color;
+		ctx.fillRect(x,y,w,h);
+		ctx.fill();
+		}
+			
+rect(10, 10, 30,30);
+		</script>
+
+		<script type="text/javascript">
+
+		function getMouseCoords(e) {
+  			var e = e || window.event;
+
+		}
+
+
+		var followCursor = (function() {
+  		var s = document.createElement('div');
+  		s.style.position = 'absolute';
+  		s.style.margin = 'width="20" height="20"';
+  		s.style.padding = '0px';
+  		s.style.border = '20px solid green';
+		
+
+  		return {
+    			init: function() {
+      			document.body.appendChild(s);
+    		},
+
+    			run: function(e) {
+      			var e = e || window.event;
+      			s.style.left  = (e.clientX - 5) + 'px';
+      			s.style.top = (e.clientY - 5) + 'px';
+      			getMouseCoords(e);
+    		}
+  		};
+		}());
+
+			window.onload = function() {
+  			followCursor.init();
+  			document.body.onmousemove = followCursor.run;
+		}
+
+		</script>
+		
+		var s = document.createElement('div');
+  		s.style.position = 'absolute';
+  		s.style.margin = 'width="20" height="20"';
+  		s.style.padding = '0px';
+  		s.style.border = '20px solid green';
+	
+		this.canvas.on('object:moving', function (e) {
+        	var obj = e.target;
+            if(obj.20 > obj.canvas.500 || obj.20 > obj.canvas.width){
+            	return;
+        	}
+			var halfw = obj.currentWidth/2;
+        	var halfh = obj.currentHeight/2;
+        	var bounds = {tl: {x: 250, y:250},
+            	br: {x: obj.canvas.width-250, y: obj.canvas.height-250}
+        	};
+			
+        	if(obj.top < bounds.tl.y || obj.left < bounds.tl.x){
+            	obj.top = Math.max(obj.top, bounds.tl.y);
+            	obj.left = Math.max(obj.left, bounds.tl.x)
+        	}
+
+        	if(obj.top > bounds.br.y || obj.left > bounds.br.x){
+            	obj.top = Math.min(obj.top, bounds.br.y);
+            	obj.left = Math.min(obj.left, bounds.br.x)
+        	}
+		});
+
+		</script>
+			
+			
+    	
+	</body>
+</html>
+
+
+
+
+</canvas>
