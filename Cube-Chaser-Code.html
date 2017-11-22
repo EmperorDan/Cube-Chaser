@@ -6,8 +6,8 @@
 		<style>
 			body {
 				background-color: #aaaaaa; 			// Defines Background colour
-						font-faamily: 'Arial';
-		font-size: 30px;
+				font-faamily: "Comic Sans MS";
+				font-size: 30px;
 				padding: 0px 0px 0px 0px;
 				margin: 0px 0px 0px 0px;
 			}
@@ -27,17 +27,17 @@
 										// This defines the size of the game screen
 		</canvas>
 		<script>
-	var canvas = document.getElementById('Cube Chase');
-	var ctx = canvas.getContext('2d');					// This is telling Js that this drawing is going to be 2d 		
+		var canvas = document.getElementById('Cube Chase');
+			var ctx = canvas.getContext('2d');			// This is telling Js that this drawing is going to be 2d 		
 
 		function rect(x, y, w, h, color="red"){
-		ctx.beginPath(x,y,w,h);
-		ctx.fillStyle=color;						// This is creating the enemy NPC's red square
-		ctx.fillRect(x,y,w,h);
-		ctx.fill();
+			ctx.beginPath(x,y,w,h);
+			ctx.fillStyle=color;					// This is creating the enemy NPC's red square
+			ctx.fillRect(x,y,w,h);
+			ctx.fill();
 		}
 			
-rect(10, 10, 30,30);								// This is defining the position of the enemy NPC 								
+		rect(10, 10, 30,30);						// This is defining the position of the enemy NPC 								
 		</script>
 
 		<script type="text/javascript">					// This determines if browser can handle scripting language
