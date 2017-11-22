@@ -1,18 +1,18 @@
 <!doctype html>
 <html><head>
 		<meta charset="utf-8">
-		<title\>Cube Chase</title>
+		<title\>Cube Chase</title> 					// Creates Title
 		
 		<style>
 			body {
-				background-color: #aaaaaa;
+				background-color: #aaaaaa; 			// Defines Background colour
 						font-faamily: 'Arial';
 		font-size: 30px;
 				padding: 0px 0px 0px 0px;
 				margin: 0px 0px 0px 0px;
 			}
-			.GameViewPort{
-				position: absolute;
+			.GameViewPort{                                        
+				position: absolute;				// This defines the position of the game screen
 				left: 40px;
 				top: 40px;
 				border: 10px solid #040000;
@@ -23,31 +23,33 @@
 	</head>
 	
 	<body>
-		<canvas id="Projectone" class="GameViewPort" width="500" height="500">
+		<canvas id="Cube Chase" class="GameViewPort" width="500" height="500">
+										// This defines the size of the game screen
 		</canvas>
 		<script>
-	var canvas = document.getElementById('Projectone');
-	var ctx = canvas.getContext('2d');		
+	var canvas = document.getElementById('Cube Chase');
+	var ctx = canvas.getContext('2d');					// This is telling Js that this drawing is going to be 2d 		
 
 		function rect(x, y, w, h, color="red"){
 		ctx.beginPath(x,y,w,h);
-		ctx.fillStyle=color;
+		ctx.fillStyle=color;						// This is creating the enemy NPC's red square
 		ctx.fillRect(x,y,w,h);
 		ctx.fill();
 		}
 			
-rect(10, 10, 30,30);
+rect(10, 10, 30,30);								// This is defining the position of the enemy NPC 								
 		</script>
 
-		<script type="text/javascript">
+		<script type="text/javascript">					// This determines if browser can handle scripting language
 
-		function getMouseCoords(e) {
-  			var e = e || window.event;
+		function getMouseCoords(e) {					// This detects mouse Co-ordinates 
+  			// e.x, e.y
+			return e;				// This makes the above constant 
 
 		}
 
 
-		var followCursor = (function() {
+		var followCursor = (function() {				// This 
   		var s = document.createElement('div');
   		s.style.position = 'absolute';
   		s.style.margin = 'width="20" height="20"';
