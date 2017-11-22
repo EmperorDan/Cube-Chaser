@@ -42,19 +42,19 @@ rect(10, 10, 30,30);								// This is defining the position of the enemy NPC
 
 		<script type="text/javascript">					// This determines if browser can handle scripting language
 
-		function getMouseCoords(e) {					// This detects mouse Co-ordinates 
-  			// e.x, e.y
-			return e;				// This makes the above constant 
+		function getMouseCoords(e) {					// This detects mouse Co-ordinates // e.x, e.y
+  			
+			return e;						// This makes the above constant 
 
 		}
 
 
-		var followCursor = (function() {				// This 
+		var followCursor = (function() {				
   		var s = document.createElement('div');
-  		s.style.position = 'absolute';
-  		s.style.margin = 'width="20" height="20"';
-  		s.style.padding = '0px';
-  		s.style.border = '20px solid green';
+  		s.style.position = 'absolute';					// This fixes the box to your mouse
+  		s.style.margin = 'width="20" height="20"';			// This defines green boxs dimensions
+  		s.style.padding = '0px';					
+  		s.style.border = '20px solid green';				// This defines the colour of box
 		
 
   		return {
@@ -64,23 +64,18 @@ rect(10, 10, 30,30);								// This is defining the position of the enemy NPC
 
     			run: function(e) {
       			var e = e || window.event;
-      			s.style.left  = (e.clientX - 5) + 'px';
+      			s.style.left  = (e.clientX - 5) + 'px';			// This defines the position of the box in relation to the mouse pointer 
       			s.style.top = (e.clientY - 5) + 'px';
-      			getMouseCoords(e);
+      			getMouseCoords(e);					// This gets the mouse co-ordinates again
     		}
   		};
 		}());
 
-			window.onload = function() {
-  			followCursor.init();
+			window.onload = function() {				
+  			followCursor.init();					// This makes code initialise upon opening
   			document.body.onmousemove = followCursor.run;
 		}
 
-		var s = document.createElement('div');
-  		s.style.position = 'absolute';
-  		s.style.margin = 'width="20" height="20"';
-  		s.style.padding = '0px';
-  		s.style.border = '20px solid green';
 		</script>
 			
 			
