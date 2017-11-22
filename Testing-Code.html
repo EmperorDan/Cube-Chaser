@@ -1,7 +1,7 @@
 <!doctype html>
 <html><head>
 		<meta charset="utf-8">
-		<title\>Cube Chase</title>
+		<title>Cube Chase</title>
 		
 		<style>
 			body {
@@ -10,23 +10,24 @@
 				font-size: 30px;
 				padding: 0px 0px 0px 0px;
 				margin: 0px 0px 0px 0px;
+				padding-left: 30px;
 			}
-			.GameViewPort{
-				position: absolute;
-				left: 40px;
-				top: 40px;
+			.GameViewPort{				
 				border: 10px solid #040000;
 				background-color: #4D1010;
+			}
 			
 		</style>
 
 	</head>
 	
 	<body>
-		<canvas id="Projectone" class="GameViewPort" width="500" height="500">
-			</canvas>
-			<script>
-		var canvas = document.getElementById('Projectone');
+		<h3>Cube Chase</h3>
+		<p id="position"></p>
+		<canvas id="Cube Chase" class="GameViewPort" width="500" height="500">		
+		</canvas>		
+		<script>
+		var canvas = document.getElementById('Cube Chase');
 			var ctx = canvas.getContext('2d');		
 
 		function rect(x, y, w, h, color="red"){
@@ -35,17 +36,40 @@
 			ctx.fillRect(x,y,w,h);
 			ctx.fill();
 		}
-		rect(10, 10, 30,30);
 		
-			</script>
-		<script type="text/javascript">
-			function getMouseCoords(e) {
-  			var e = e || window.event;
-			
-					}
-			
-
 		</script>
-		    	
+		
+		<script type="text/javascript">		
+		var followCursor = (function() {
+
+  		return {
+    			init: function() {
+    		},
+				
+				run: function(e) {
+      			var e = e || window.event;      		
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				rect(e.clientX, e.clientY, 30, 30, "green" );
+				rect(10, 10, 30,30);
+				document.getElementById('position').innerHTML = "Your position is x: " + e.clientX + " y: " + e.clientY; // Shows mouse co-ordinates
+      			
+				
+		}
+  		};
+		}());
+				window.onload = function() {
+				followCursor.init();
+				document.body.onmousemove = followCursor.run;
+		}
+		
+		</script>
+			
+			
+    	
 	</body>
 </html>
+
+
+
+
+</canvas>
