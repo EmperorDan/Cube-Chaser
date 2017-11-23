@@ -22,8 +22,8 @@
 	</head>
 	
 	<body>
-		<h3>Cube Chase</h3>
-		<p id="position"></p>
+		<h1>Cube Chase</h1>			
+		<p id="position"></p>						// This displays mouse co-ordinates						
 		<canvas id="Cube Chase" class="GameViewPort" width="500" height="500">		
 		</canvas>		
 		<script>
@@ -51,7 +51,7 @@
 				ctx.clearRect(0, 0, canvas.width, canvas.height);
 				rect(e.clientX, e.clientY, 30, 30, "green" );
 				rect(10, 10, 30,30);
-				document.getElementById('position').innerHTML = "Your position is x: " + e.clientX + " y: " + e.clientY; // Shows mouse co-ordinates
+				document.getElementById('position').innerHTML = "Your position is x: " + e.clientX + " y: " + e.clientY; 	// This gets the co-ordinates from the mouse
       			
 				
 		}
