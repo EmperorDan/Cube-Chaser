@@ -22,8 +22,6 @@ Below is a screenshot of the game, so far.
 
 ![](https://i.imgur.com/VmtoARP.png)
 
-## Previous Versions
+## Previous Version
 
 ![](https://i.imgur.com/EinbZwm.jpg)
-
-![](https://i.imgur.com/BSy7dLA.jpg)
