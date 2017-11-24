@@ -20,7 +20,7 @@ The aim of this project was to create a web based game. There are two characters
 
 Below is a screenshot of the game, so far.
 
-![](https://imgur.com/a/R0ZEq)
+![](https://i.imgur.com/VmtoARP.png)
 
 ## Previous Versions
 
