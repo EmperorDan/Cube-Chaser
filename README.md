@@ -6,15 +6,19 @@ The aim of this project was to create a web based game. There are two characters
 
 ## Mechanics
 
--Player Character tracks player mouse co-ordinates.
+- Player Character tracks player mouse co-ordinates.
 
--Enemy NPC follows player mouse.
+- Enemy NPC follows player mouse.
 
--Player has 3 lives.
+- Player has 3 lives.
 
--If player runs out of lives the game ends.
+- If player runs out of lives the game ends.
 
--Player will win if they survive a certain amount of time without being hit.
+- Player will win if they survive a certain amount of time without being hit.
+
+## Difficulties & solutions
+- I had trouble getting the Player box (green) to follow the users mouse. To get this to work i searched online for a solution. I eventually found that someone had posted a question to a forum. They asked how they would be able to get an image to follow the users mouse on their website. I took code that was given as an answer and disected it. I gained a better understanding of how to track the mouse co-ordinates. In the end i managed to edit, and incorporate it, into my game code. 
+- I am still struggling to incorporate enemy ai into my game. [to be updated]
 
 ## Gameplay
 
