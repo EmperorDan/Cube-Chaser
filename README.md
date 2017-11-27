@@ -30,6 +30,8 @@ The aim of this project was to create a web based game. There are two characters
 
 ## Screenshots
 
+## Current Version
+
 Below is a screenshot of the game, so far. It includes mouse tracking which is displayed above the game screen. 
 
 ![](https://i.imgur.com/VmtoARP.png)
