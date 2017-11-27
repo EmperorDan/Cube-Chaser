@@ -3,7 +3,6 @@
 ## Project: 001
 
 ## Introduction
-
 The aim of this project was to create a web based game. There are two characters: the player, and the enemy npc. The aim of the game is to keep your character away from the enemy, until a timer concludes. The player has three lives, if the enemy NPC hits the player they lose a life. When the player runs out of lives, the game ends. 
 
 ### High level functional specifications
@@ -22,15 +21,10 @@ A non-playing character NPC (that is a character controlled by the computer) tar
 Jscript
 
 ## Mechanics
-
 - Player Character tracks player mouse co-ordinates.
-
 - Enemy NPC follows player mouse.
-
 - Player has 3 lives.
-
 - If player runs out of lives the game ends.
-
 - Player will win if they survive a certain amount of time without being hit.
 
 ## Difficulties & solutions
@@ -40,13 +34,11 @@ Jscript
 ## Screenshots
 
 ### Current Version
-
 Below is a screenshot of the game, so far. It includes mouse tracking which is displayed above the game screen. 
 
 ![](https://i.imgur.com/VmtoARP.png)
 
 ### Previous Version
-
 Below is a screenshot of a previous version of the game. While playing around, trying to get mouse co-ordinates on screen. I created a glitch shown behind the game screen. The glitch did track the mouse co-ordinates but was displaying too much information.
 
 ![](https://i.imgur.com/EinbZwm.jpg)
