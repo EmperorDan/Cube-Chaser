@@ -30,13 +30,13 @@ The aim of this project was to create a web based game. There are two characters
 
 ## Screenshots
 
-## Current Version
+### Current Version
 
 Below is a screenshot of the game, so far. It includes mouse tracking which is displayed above the game screen. 
 
 ![](https://i.imgur.com/VmtoARP.png)
 
-## Previous Version
+### Previous Version
 
 Below is a screenshot of a previous version of the game. While playing around, trying to get mouse co-ordinates on screen. I created a glitch shown behind the game screen. The glitch did track the mouse co-ordinates but was displaying too much information.
 
