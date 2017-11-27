@@ -13,6 +13,7 @@ The aim of this project was to create a web based game. There are two characters
 ### Flowcharts components
 ### High-level user stories
 ### Research
+### Teamwork
 
 ## High level Description
 A non-playing character NPC (that is a character controlled by the computer) targets the users mouse position as the player moves across the screen, the game is over once the NPC touches the players mouse position 3 times. 
