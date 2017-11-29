@@ -53,10 +53,3 @@ Below is a screenshot of the game, so far.
 ![](https://i.imgur.com/ISyGJgD.png)
 
 ![](https://i.imgur.com/vJEL30u.png)
-
-![](https://i.imgur.com/VmtoARP.png)
-
-### 
-Below is a screenshot of a previous version of the game. While playing around, trying to get mouse co-ordinates on screen. I created a glitch shown behind the game screen. The glitch did track the mouse co-ordinates but was displaying too much information.
-
-![](https://i.imgur.com/EinbZwm.jpg)
