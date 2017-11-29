@@ -41,8 +41,14 @@ Jscript
 - Player will win if they survive a certain amount of time without being hit.
 
 ## Troubleshooting
-- I had trouble getting the Player box (green) to follow the users mouse. To get this to work i searched online for a solution. I eventually found that someone had posted a question to a forum. They asked how they would be able to get an image to follow the users mouse on their website. I took code that was given as an answer and disected it. I gained a better understanding of how to track the mouse co-ordinates. In the end i managed to edit, and incorporate it, into my game code. 
-- I am still struggling to incorporate enemy ai into my game. [to be updated]
+- I had trouble getting the Player box (green) to follow the users mouse. To get this to work i searched online for a solution. I eventually found that someone had posted a question to a forum. They asked how they would be able to get an image to follow the users mouse on their website. I took code (shown below) that was given as an answer and disected it. 
+
+![](https://i.imgur.com/h1zwQQO.png)
+
+I looked at this snippet of code ![](https://i.imgur.com/OTnEHig.png).
+
+
+
 
 ## Screenshots
 
@@ -51,5 +57,7 @@ Below is a screenshot of the game, so far.
 - Below is a screenshot showing my game screen. 
 
 ![](https://i.imgur.com/ISyGJgD.png)
+
+- Below is a screenshot showing the tracking aspect of the game. This will actively show the position of the mouse pointer. 
 
 ![](https://i.imgur.com/vJEL30u.png)
