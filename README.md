@@ -1,6 +1,8 @@
 # Cube Chaser
 
 ## Project: 001
+### Required: 
+Jscript
 
 ## Introduction
 
@@ -8,36 +10,9 @@ The aim of this project was to create a web based game. There are two characters
 
 ## High level Description
 
-A non-playing character NPC (that is a character controlled by the computer) targets the users mouse position as the player moves across the screen, the game is over once the NPC touches the players mouse position 3 times. 
+A non-playing character NPC targets the users mouse position as the player moves across the screen. A timer will start on start, While on a timer you must avoid the NPC. The game ends when the enemy NPC has touched your character three times within the time.  
 
 ### High level functional specifications
-
--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### High level non-functional specifications
-
--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Application requirements
-
-### Mock-ups
-
-### Storyboards
-
-### Flowcharts components
-
-### High-level user stories
-
-### Research
-
-### Teamwork
-
-
-
-### Required Language: 
-Jscript
-
-## Mechanics
 
 - Player Character tracks player mouse co-ordinates.
 - Enemy NPC follows player mouse.
@@ -45,6 +20,26 @@ Jscript
 - If player runs out of lives the game ends.
 - Player will win if they survive a certain amount of time without being hit.
 
+### High level non-functional specifications
+
+- Obstacles dotted around map.
+- Multiple enemy NPCs.
+- Multiple diffulty settings.
+- Linear level by level.
+- Better UI: Game menu, settings, ect.
+- Scoring system.
+  - Leaderboards.
+
+### Application requirements
+- Notepad
+- Google Chrome
+
+### Mock-ups
+### Storyboards
+### Flowcharts components
+### High-level user stories
+### Research
+### Teamwork
 ## Troubleshooting
 
 - I had trouble getting the Player box (green) to follow the users mouse. To get this to work i searched online for a solution. I eventually found that someone had posted a question to a forum. They asked how they would be able to get an image to follow the users mouse on their website. I took code (shown below) that was given as an answer and disected it. 
