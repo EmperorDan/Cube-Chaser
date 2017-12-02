@@ -55,10 +55,12 @@ This snippet of code gets my mouse co-ordinates
 ### Current State of the game
 #### Below is a screenshot of the game, so far. 
 
-- Below is a screenshot showing my game screen. 
-
-![](https://i.imgur.com/ISyGJgD.png)
-
 - Below is a screenshot showing the tracking aspect of the game. This will actively show the position of the mouse pointer. 
 
 ![](https://i.imgur.com/vJEL30u.png)
+
+- And here is a screenshot showing my game screen. 
+
+![](https://i.imgur.com/ISyGJgD.png)
+
+
