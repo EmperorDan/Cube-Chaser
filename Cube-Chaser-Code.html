@@ -40,26 +40,26 @@
 		</script>
 		
 		<script type="text/javascript">					// This is telling the computer the text type is 'javascript'
-		var followCursor = (function() {
+		var followCursor = (function() {				// This 
 
   		return {
     			init: function() {
     		},
 				
-				run: function(e) {
-      			var e = e || window.event;      		
+				run: function(event) {				// This starts the event created
+      			var event = event || window.event;      		// This links to 
 				ctx.clearRect(0, 0, canvas.width, canvas.height);
-				rect(e.clientX, e.clientY, 30, 30, "green" );	
+				rect(event.clientX, event.clientY, 30, 30, "green" );	
 				rect(10, 10, 30,30);				// This is defining the position of the enemy NPC
-				document.getElementById('position').innerHTML = "Your position is x: " + e.clientX + " y: " + e.clientY; 	// This gets the co-ordinates from the mouse
+				document.getElementById('position').innerHTML = "Your position is x: " + event.clientX + " y: " + event.clientY; 	// This displays the co-ordinates from the mouse
       			
 				
 		}
   		};
 		}());
-				window.onload = function() {
-				followCursor.init();
-				document.body.onmousemove = followCursor.run;
+			window.onload = function() {			// This says the function starts upon loading the webpage
+			followCursor.init();				// This initialises the function of following the mouse
+			document.body.onmousemove = followCursor.run;	// When the mouse moves on the 'body' of the 'document' call the 'run' function
 		}
 		
 		</script>
