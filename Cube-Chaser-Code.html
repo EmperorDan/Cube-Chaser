@@ -5,16 +5,16 @@
 		
 		<style>
 			body {
-				background-color: #aaaaaa;			// Defines Background colour
-				font-family: "Comic Sans MS";
-				font-size: 30px;
-				padding: 0px 0px 0px 0px;
+				background-color: #aaaaaa;			// Defines text colour
+				font-family: "Comic Sans MS";			// Defines the titles font
+				font-size: 30px;				
+				padding: 0px 0px 0px 0px;			
 				margin: 0px 0px 0px 0px;
-				padding-left: 30px;
+				padding-left: 30px;				
 			}
 			.GameViewPort{				
-				border: 10px solid #040000;
-				background-color: #4D1010;
+				border: 10px solid #040000;			// This decides the thickness/colour of the border
+				background-color: #4D1010;			// This decides the background colour of the 'GameViewPort'
 			}
 			
 		</style>
@@ -39,7 +39,7 @@
 		
 		</script>
 		
-		<script type="text/javascript">		
+		<script type="text/javascript">					// This is telling the computer the text type is 'javascript'
 		var followCursor = (function() {
 
   		return {
@@ -49,7 +49,7 @@
 				run: function(e) {
       			var e = e || window.event;      		
 				ctx.clearRect(0, 0, canvas.width, canvas.height);
-				rect(e.clientX, e.clientY, 30, 30, "green" );
+				rect(e.clientX, e.clientY, 30, 30, "green" );	
 				rect(10, 10, 30,30);				// This is defining the position of the enemy NPC
 				document.getElementById('position').innerHTML = "Your position is x: " + e.clientX + " y: " + e.clientY; 	// This gets the co-ordinates from the mouse
       			
