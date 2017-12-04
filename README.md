@@ -40,6 +40,15 @@ A non-playing character NPC targets the users mouse position as the player moves
 ### High-level user stories
 ### Research
 ### Teamwork
+
+I was assisted by one of my peer's at 'ReebootGaming'. He helped me better understand how to layout my game screen. I didnt realise that ![](https://i.imgur.com/5ftrhXF.png) made my 'GameViewPort' stick in one position. 
+
+He also helped me understand how to display my mouses co-ordinates. The following snippet ![](https://i.imgur.com/0AB7f4N.png) is displaying my mouse co-ordinates.
+
+![](https://i.imgur.com/5R17B3W.png) creates my player character (Green square). 
+
+
+
 ## Troubleshooting
 
 - I had trouble getting the Player box (green) to follow the users mouse. To get this to work i searched online for a solution. I eventually found that someone had posted a question to a forum. They asked how they would be able to get an image to follow the users mouse on their website. I took code (shown below) that was given as an answer and disected it. 
