@@ -45,7 +45,7 @@ He also helped me understand how to display my mouses co-ordinates. The followin
 
 ![](https://i.imgur.com/5R17B3W.png) creates my player character (Green square). 
 
-## Coding standards
+### Coding standards
 I have used indentation throughout my coding. This is so that it's clearer to read. Without this it looks messy, and can be quite confusing. 
 
 ![](https://i.imgur.com/Xkd6pDS.png)
@@ -60,7 +60,7 @@ I follow this trend by indenting the parameters of the 'body'. This looks better
 
 My notes are made to help with my learning, so i can quickly revise my code. I plan to include explanations of my code. I want my notes to be more about why i've used this code, than what it does.
 
-## Troubleshooting
+### Troubleshooting
 - I had trouble getting the Player box (green) to follow the users mouse. To get this to work i searched online for a solution. I eventually found that someone had posted a question to a forum. They asked how they would be able to get an image to follow the users mouse on their website. I took code (shown below) that was given as an answer and disected it. 
 
 ![](https://i.imgur.com/h1zwQQO.png)
@@ -71,7 +71,6 @@ I looked at this snippet of code.
 
 This snippet of code gets my mouse co-ordinates
 
-### Current State of the game
 #### Below is a screenshot of the current state of the game.
 - Below is a screenshot showing the tracking aspect of the game. This will actively show the position of the mouse pointer. 
 
