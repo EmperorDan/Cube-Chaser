@@ -46,6 +46,9 @@ He also helped me understand how to display my mouses co-ordinates. The followin
 ![](https://i.imgur.com/5R17B3W.png) creates my player character (Green square). 
 
 ## Coding standards
+I have used indentation throughout my coding. This is so that it's clearer to read. Without this it looks messy, and can be quite confusing. 
+
+![](https://i.imgur.com/Tu2B1jS.png)
 
 
 ## Troubleshooting
