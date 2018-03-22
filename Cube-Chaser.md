@@ -32,11 +32,11 @@ A non-playing character NPC targets the users mouse position as the player moves
 ### Flowchart
 ![](https://i.imgur.com/5PDVXLm.jpg)
 
-### Gantt chart
-![](https://i.imgur.com/xi3iyVy.png)
-
 ### Research
 I used multiple forums during research. This was to see how others had solved certain issues i was facing. I found an extremely helpful forum on stack overflow. (https://stackoverflow.com/questions/7143806/make-an-image-follow-mouse-pointer) One of the answers was very useful, as it gave me a greater understanding of how to use functions.
+
+### Gantt chart
+![](https://i.imgur.com/xi3iyVy.png)
 
 ### Teamwork
 I was assisted by one of my peer's at 'ReebootGaming'. He helped me better understand how to layout my game screen. I didnt realise that ![](https://i.imgur.com/5ftrhXF.png) made my 'GameViewPort' stick in one position. 
