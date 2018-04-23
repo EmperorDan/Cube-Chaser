@@ -49,7 +49,8 @@ He also helped me understand how to display my mouses co-ordinates. The followin
 
 
 ### Coding standards
-When using HTML i never indent my identifiers.
+- When using HTML i never indent my identifiers.
+- 
  
 
 ![](https://i.imgur.com/Xkd6pDS.png)
