@@ -47,6 +47,7 @@ He also helped me understand how to display my mouses co-ordinates. The followin
 
 ###################################################################################
 
+
 ### Coding standards
 When using HTML i never indent my identifiers.
  
@@ -62,6 +63,7 @@ I follow this trend by indenting the parameters of the 'body'. This looks better
 ![](https://i.imgur.com/WwMVF9e.png)
 
 My notes are made to help with my learning, so i can quickly revise my code. I plan to include explanations of my code. I want my notes to be more about why i've used this code, than what it does.
+
 
 #####################################################################################
 
