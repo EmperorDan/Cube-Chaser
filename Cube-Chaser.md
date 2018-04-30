@@ -50,8 +50,10 @@ He also helped me understand how to display my mouses co-ordinates. The followin
 
 ### Coding standards
 - When using HTML i never indent my identifiers.
+- Comment describe what is to the left of them.
+- Indent my code so i can see breaks in commands.
+- I always use tab to indent to keep conformity.
 - 
- 
 
 ![](https://i.imgur.com/Xkd6pDS.png)
 
